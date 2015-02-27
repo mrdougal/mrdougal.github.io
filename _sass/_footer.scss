@@ -1,5 +1,7 @@
 #footer {
+  
   padding: $paddingDefault*2;
+  font-family: Times;
   color: $heroDark;
   
   a {
@@ -8,7 +10,8 @@
   }
   
   img#mugshot {
-    margin-top: -$paddingDefault*6;
-    max-width: 200px;
+    margin-top: -150px;
+    max-height: 200px;
   }
+  
 }

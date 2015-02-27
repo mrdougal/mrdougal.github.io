@@ -11,15 +11,23 @@ body {
   color: $hero;      
   background-color: $hero;
   font-family: 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
   
   .container {
     margin: 0;
     padding: 0 40pt;
+    max-width: 500px;
+    margin: 0 auto;
   }
 }  
 
 p {
   margin: $fontSizeDefault 0;
+}
+
+em {
+  font-style: italic;
+  font-family: Times;
 }
 
 a {
