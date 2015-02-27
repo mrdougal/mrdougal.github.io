@@ -32,7 +32,7 @@ h3, h4 { font-weight: bold; }
 
 #bio { font-size: 180%; }
 
-#footer { padding: 36pt; font-family: Times; color: #1f516b; }
+#footer { padding: 36pt; color: #1f516b; }
 #footer a { color: #7dbad9; text-decoration: none; }
 #footer img#mugshot { margin-top: -150px; max-height: 200px; }
 
