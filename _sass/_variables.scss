@@ -1,0 +1,9 @@
+$paddingDefault: 18pt;
+$fontSizeDefault: 14pt;
+
+$hero: #368DBA;
+$contrast: #A6192E;
+
+$heroLight: lighten($hero, 20%);
+$heroLighter: lighten($hero, 40%);
+$heroDark: darken($hero, 20%);

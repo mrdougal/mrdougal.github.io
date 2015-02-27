@@ -1,0 +1,14 @@
+#footer {
+  padding: $paddingDefault*2;
+  color: $heroDark;
+  
+  a {
+    color: $heroLight;
+    text-decoration: none;
+  }
+  
+  img#mugshot {
+    margin-top: -$paddingDefault*6;
+    max-width: 200px;
+  }
+}

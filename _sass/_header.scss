@@ -1,0 +1,50 @@
+
+#header {
+  color: $heroLight;
+  background-color: $heroDark;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+  
+  #hamburger {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: $paddingDefault*2;
+    font-size: $fontSizeDefault*1.25;
+  }
+  
+  menu {
+    display: inline;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: $paddingDefault;
+      margin: 0;
+      padding: 10px;
+      
+      a {
+        color: $heroLight;
+        text-decoration: none;
+        
+        i.fa {
+          margin-right: $paddingDefault/2;
+        }
+        
+        &:hover {
+          text-decoration: underline;
+          img {
+            display: inline-block;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+  
+}
