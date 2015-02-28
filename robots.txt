@@ -1,0 +1,2 @@
+User-Agent: DiryHackers
+Disallow: /wp-admin
