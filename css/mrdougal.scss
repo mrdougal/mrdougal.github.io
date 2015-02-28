@@ -5,7 +5,8 @@ ignore: true
 // Styles for documentation
 @import "variables";
 @import "reset";
-@import "header";
 @import "content";
 @import "footer";
-@import "syntax";
+@import "responsive";
+
+//@import "syntax";

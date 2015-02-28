@@ -1,3 +1,9 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 40pt;
+  max-width: 500px;
+}
 
 #main {
   padding: 10%;
@@ -13,5 +19,8 @@
 
 
 #bio {
+  font-family: 'Arial Black', 'Arial';
   font-size: 180%;
+  font-weight: 900;
+  line-height: 120%;
 }
