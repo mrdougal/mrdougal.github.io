@@ -41,8 +41,9 @@ h1, h2, h3, h4 {
   margin-bottom: 0;
 }
 
-h1, .title {
-  font-size: $fontSizeDefault*2;
+h1 {
+  font-size: $fontSizeDefault*3;
+  font-weight: 300;
 }     
 
 h2 {
