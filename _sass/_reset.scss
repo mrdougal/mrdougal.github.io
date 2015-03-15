@@ -7,10 +7,10 @@ body {
   margin: 0;
   padding: 0;
   
-  color: $hero;      
-  background-color: $hero;
+  color: $hero;
+  background-color: $white;
   font-size: $fontSizeDefault;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }  
 
@@ -49,7 +49,7 @@ h2 {
   margin: 0 -$paddingDefault*2;
   margin-top: $paddingDefault*7;
   padding: $paddingDefault*2;
-  border-top: 3pt $heroLighter solid;
+  border-top: 3pt $white solid;
 }
 
   

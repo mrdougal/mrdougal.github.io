@@ -7,8 +7,8 @@
 
 #main {
   padding: 10%;
-  color: $hero;
-  background-color: $heroLighter;
+//  color: $hero;
+//  background-color: $white;
   
   h1.title {
     margin: 0;
@@ -19,8 +19,20 @@
 
 
 #bio {
-  font-family: 'Arial Black', 'Arial';
   font-size: 180%;
-  font-weight: 900;
+  font-weight: 300;
   line-height: 120%;
+  
+  p {
+    margin: 40pt 0;
+  }
+}
+
+
+#mugshot {
+  width: 250px;
+  border-radius: 50%;
+  border: 20pt solid transparentize($heroLight, 0.5);
+//  border-bottom: 5pt solid $heroLight;
+//  box-shadow: 3px 12pt 50px transparentize($heroLight, 0.25);
 }

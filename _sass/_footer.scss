@@ -1,16 +1,10 @@
 #footer {
   
   padding: $paddingDefault*2;
-  color: $heroDark;
+  color: $heroLight;
   
   a {
     color: $heroLight;
     text-decoration: none;
   }
-  
-  img#mugshot {
-    margin-top: -100px;
-    max-height: 200px;
-  }
-  
 }

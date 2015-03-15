@@ -2,9 +2,8 @@ $paddingDefault: 18pt;
 $fontSizeDefault: 14pt;
 $fontSizeMobile: 11pt;
 
-$hero: #368DBA;
+$hero: #1A1A1A;
+$heroLight: lighten($hero, 80%);
 $contrast: #A6192E;
 
-$heroLight: lighten($hero, 20%);
-$heroLighter: lighten($hero, 40%);
-$heroDark: darken($hero, 20%);
+$white: #fff;
