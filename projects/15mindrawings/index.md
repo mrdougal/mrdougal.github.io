@@ -10,7 +10,7 @@ title: 15 minute drawings
 
 
 <div id="bio">
-  <img src="15mindrawings/cats.jpg" alt="Cats">
+  <img src="./15mindrawings/cats.jpg" alt="Cats">
   <p>
     At first I started <a href="http://instagram.com/15mindrawings">15mindrawings</a> as a way to entertain our three year old son, 
     but it has envoled into a daily habit with a global audience.
