@@ -1,0 +1,24 @@
+.homepage {
+  img {
+    display: inline-block;
+  }
+}
+
+.drawings-list {
+  a {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  img {
+    display: inline-block;
+    width: 30%;
+    max-width: 300px;
+    margin: 0;
+  }
+}
+
+#footer {
+  color: #ccc;
+  font-size: 10pt;
+}

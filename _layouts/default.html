@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }} | mrdougal</title>
-    <meta name="description" content="Dougal MacPherson">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
-    <meta name="google-site-verification" content="oz2V5S9fF9joiijw_HHdZxkp95ZPrLDcobkz1noRzLk">
-    <meta content="telephone=no" name="format-detection">
-    <link rel="stylesheet" href="/css/mrdougal.css" type="text/css" media="all">
-    
-    <!-- so many icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    
-  </head>
+<html lang="en-us">
+
+  {% include head.html %}
+
   <body>
-    
-    <!-- {% include header.html %} -->
-    
-    <div id="main">
-      <div class="container">
 
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
         {{ content }}
-
+        {% include footer.html %}
       </div>
     </div>
 
-    {% include footer.html %} 
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
   </body>
 </html>
-
