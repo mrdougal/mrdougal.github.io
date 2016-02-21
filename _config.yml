@@ -1,3 +1,24 @@
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Dougal MacPherson
+tagline:             'Illustrator'
+description:         'Childrens book illustrator'
+url:                 http://mrdougal.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Dougal MacPherson
+  url:               https://twitter.com/15mindrawings
+  email:             greetings@mrdougal.com
+
+# Custom vars
+version:             1.0.0
+
+
 # github overides the source directory, so unfortunately the site's content
 # is mixed amoungst the site's config. Seperation of concerns need not apply here
 destination: build
