@@ -1,4 +1,4 @@
-permalink:           pretty
+permalink:           /work/:title
 relative_permalinks: true
 
 # Setup
@@ -15,6 +15,19 @@ author:
   url:               https://twitter.com/15mindrawings
   email:             greetings@mrdougal.com
 
+
+collections:
+  work:
+    output: true
+
+defaults:
+  - 
+    scope:
+      type: posts
+    values:
+      collection: work
+      layout: work
+
 # Custom vars
 version:             1.0.0
 
@@ -22,6 +35,7 @@ version:             1.0.0
 # github overides the source directory, so unfortunately the site's content
 # is mixed amoungst the site's config. Seperation of concerns need not apply here
 destination: build
+include: [_posts/images]
 exclude: [run/*]
 encoding: utf-8
 safe: true
