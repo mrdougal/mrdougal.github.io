@@ -3,4 +3,9 @@ ignore: true
 ---
 
 // Styles for documentation
-@import "mrdougal";
+
+@import "_variables";
+@import "base";
+@import "menu";
+@import "drawings";
+@import "responsive";

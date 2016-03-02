@@ -3,6 +3,12 @@ layout: page
 title: About
 ---
 
+I'm often asked how did i end up working as an illustrator. 
+
+The story goes something like this...
+
+One rainy afternoon i was wanting to entertain my 2.5 year old son with a game of colouring in.
+So 
 
 <!-- ![Dougal MacPherson](/img/dougal-macpherson.jpg) -->
 

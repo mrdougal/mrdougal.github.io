@@ -3,8 +3,8 @@ relative_permalinks: true
 
 # Setup
 title:               Dougal MacPherson
-tagline:             'Illustrator'
-description:         'Childrens book illustrator'
+tagline:             'draws pictures'
+description:         'Dougal MacPherson is a fine gentleman and a childrens book illustrator'
 url:                 http://mrdougal.com
 baseurl:             ''
 paginate:            5

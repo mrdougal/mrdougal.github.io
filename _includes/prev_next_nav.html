@@ -1,7 +1,8 @@
-{% if page.previous.url %}
-  <a id="page-prev" href="{{ page.previous.url }}" title="{{ page.previous.title}}">Previous</a>
-{% endif %}
-
-{% if page.next.url %}
-  <a id="page-next" href="{{ page.next.url }}" title="{{ page.next.title}}">Next</a>
-{% endif %}
+<div id="pagination">
+  {% if page.previous.url %}
+    <a id="page-prev" href="{{ page.previous.url }}" title="Previous:                              {{ page.previous.title}}"></a>
+  {% endif %}
+  {% if page.next.url %}
+    <a id="page-next" href="{{ page.next.url }}" title="Next: {{ page.next.title}}"></a>
+  {% endif %}
+</div>

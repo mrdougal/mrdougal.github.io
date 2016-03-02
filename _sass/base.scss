@@ -1,0 +1,194 @@
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $font-family-copy;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $color-body;
+}
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headers;
+  margin-bottom: .5rem;
+  font-weight: 100;
+  line-height: 1.25;
+  color: $color-base;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong, a {
+  color: $color-base;
+}
+
+a:hover {
+  color: $color-complementary;
+}
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: $color-body;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted $color-body;
+}
+
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: $color-light;
+  border-left: .25rem solid $color-light;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+/*
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  padding:  1rem;
+  margin-left:  4rem;
+  margin-right: 4rem;
+}
+
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $color-background;
+}
+
+.masthead-title small {
+  font-size: 50%;
+  font-weight: 400;
+  letter-spacing: 0;
+  display: block;
+}
+
+
+//Pagination
+
+#pagination {
+  margin-bottom: 1rem;
+  margin-left: -1rem;
+  
+  a {
+    padding: 1rem;
+  }
+  
+  #page-prev::before {
+    content: '<';
+  }
+  
+  #page-next::after {
+    content: '>';
+  }
+  
+  
+  a {
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+}
+
+
