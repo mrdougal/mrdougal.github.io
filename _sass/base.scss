@@ -54,12 +54,20 @@ p {
   margin-bottom: 1rem;
 }
 
-strong, a {
+strong {
   color: $color-base;
 }
 
-a:hover {
-  color: $color-complementary;
+a {
+  color: $color-base;
+  
+  &:hover {
+    color: $color-base;
+  }
+  
+  &:active {
+    color: #f00;
+  }
 }
 
 /* Lists */
