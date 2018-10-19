@@ -1,8 +1,11 @@
-.container {
-  text-align: center;
+.container, .content {
   margin: 0 auto;
   padding: 0 40pt;
   max-width: 800px;
+}
+
+.container {
+  text-align: center;
 }
 
 #main {
