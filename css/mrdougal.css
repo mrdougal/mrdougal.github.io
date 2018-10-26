@@ -1,0 +1,37 @@
+body {
+  color: #15669b;
+  background-color: #15669b;
+  font-size: 18px;
+  margin: 0;
+  padding: 50vh 0 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+#main {
+  min-height: 80vh;
+  background-color: #ededed;
+}
+
+#footer {
+  margin-top: 2em;
+}
+
+.mugshot img {
+  margin-top: -50vh;
+  border-radius: 50%;
+  border: 1vw solid hsla(192, 56%, 53%, 0.5);
+  max-width: 30vw;
+}
+
+a {
+  color: #071925;
+}
+
+a:focus {
+  color: #000;
+}
