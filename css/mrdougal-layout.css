@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: #fff;
   font-size: 16pt;
   font-family: "Meta", Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   color: rgba(5, 41, 65, 0.8);
+  background-color: #4dd6ee;
 }
 
 a {
@@ -43,13 +43,12 @@ ul {
 }
 
 main {
-  min-height: 30vh;
+  min-height: 40vh;
 }
 
 main,
 footer {
   padding: 0 2em;
-  background-color: #4dd6ee;
 }
 
 @media (min-width: 800px) {
@@ -111,6 +110,10 @@ footer {
   }
 }
 
+.banner {
+  background-color: #fff;
+}
+
 .banner > * {
   display: grid;
   background-color: #fff;
@@ -119,6 +122,10 @@ footer {
 .banner img {
   max-width: 30vw;
   margin-left: 40vw;
+}
+
+.banner__missing img {
+  margin-bottom: -2vw;
 }
 
 .social {
