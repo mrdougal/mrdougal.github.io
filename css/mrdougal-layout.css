@@ -42,6 +42,10 @@ ul {
   padding: 0;
 }
 
+main {
+  min-height: 30vh;
+}
+
 main,
 footer {
   padding: 0 2em;
@@ -107,12 +111,12 @@ footer {
   }
 }
 
-.mugshot > * {
+.banner > * {
   display: grid;
   background-color: #fff;
 }
 
-.mugshot img {
+.banner img {
   max-width: 30vw;
   margin-left: 40vw;
 }
