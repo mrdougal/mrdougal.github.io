@@ -93,6 +93,11 @@ footer {
 }
 
 @media (min-width: 600px) {
+  .title__wrapper {
+    position: sticky;
+    top: -0.1em;
+  }
+
   .title h1 {
     font-size: 4em;
     margin: -0.5em 0 0 0em;
@@ -103,10 +108,13 @@ footer {
 }
 
 @media (min-width: 1000px) {
+  .title__wrapper {
+    top: -0.25em;
+    margin-left: -3em;
+  }
+
   .title h1 {
     font-size: 10vw;
-    position: sticky;
-    top: -0.25em;
   }
 }
 
@@ -121,15 +129,15 @@ footer {
 
 .banner img {
   max-width: 30vw;
+  margin-top: 1em;
   margin-left: 40vw;
-}
-
-.banner__missing img {
   margin-bottom: -2vw;
 }
 
-.social {
-  padding: 2em;
+@media (min-width: 600px) {
+  .social {
+    padding: 2em;
+  }
 }
 
 .social ul {
